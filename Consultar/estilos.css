@@ -1,0 +1,62 @@
+*{box-sizing:border-box;}
+
+body{
+  background-image: url("portal.gif");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+.echo {
+  font-family: "Monaco";
+  color: #ffffff;
+  font-weight: bold;
+}
+
+h2{
+  font-family: "Copperplate";
+  color: #cacbd0;
+}
+
+h3{
+  font-family: "Monaco";
+  color: #cacbd0;
+}
+
+table {
+  background-color: #B3B5B4;
+  border: solid #B3B5B4;
+  margin-left: auto;
+  margin-right: auto;
+  color: #cacbd0;
+}
+
+tr {
+  border: solid #575769;
+  background-color: #575769;
+  color: #cacbd0;
+}
+
+td {
+  border: solid #272b2e;
+  color: #cacbd0;
+}
+
+tr:nth-child(even){background-color: #272b2e;}
+
+input[type="button"]{
+  width:100%;
+  padding:8px 16px;
+  font-family: "Georgia";
+  font-weight: bold;
+  margin-top:32px;
+  border:2px solid #949598;
+  border-radius:5px;
+  display:block;
+  color:#942b41;
+  background-color:#a8a9ab;
+} 
+
+input[type="button"]:hover{
+  cursor:pointer;
+}
